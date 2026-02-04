@@ -8,7 +8,7 @@
     "category": ["General", "SC", "ST", "OBC", "EWS"],
     "gender": "Any",
     "family_income_limit": 450000,
-    "benefits": "₹10,000–₹20,000 per year",
+    "benefits": ["₹10,000–₹20,000 per year"],
     "open_date": "2025-08-01",
     "close_date": "2025-12-15",
     "status": "Closed"
@@ -22,7 +22,7 @@
     "category": ["Persons with Disabilities"],
     "gender": "Any",
     "family_income_limit": 250000,
-    "benefits": "Fee reimbursement + maintenance allowance",
+    "benefits": ["Fee reimbursement + maintenance allowance"],
     "open_date": "2026-07-01",
     "close_date": "2026-10-31",
     "status": "Upcoming"
@@ -36,7 +36,7 @@
     "category": ["General", "SC", "ST", "OBC", "EWS"],
     "gender": "Female",
     "family_income_limit": 800000,
-    "benefits": "₹50,000 per year",
+    "benefits": ["₹50,000 per year"],
     "open_date": "2026-01-15",
     "close_date": "2026-03-31",
     "status": "Open"
@@ -50,7 +50,7 @@
     "category": ["SC", "ST", "OBC"],
     "gender": "Any",
     "family_income_limit": 250000,
-    "benefits": "Fee reimbursement + maintenance allowance",
+    "benefits": ["Fee reimbursement + maintenance allowance"],
     "open_date": "2026-01-01",
     "close_date": "2026-04-30",
     "status": "Open"
@@ -64,7 +64,7 @@
     "category": ["EWS"],
     "gender": "Any",
     "family_income_limit": 800000,
-    "benefits": "Fee reimbursement + maintenance allowance",
+    "benefits": ["Fee reimbursement + maintenance allowance"],
     "open_date": "2026-07-15",
     "close_date": "2026-10-15",
     "status": "Upcoming"
@@ -78,7 +78,7 @@
     "category": ["General", "SC", "ST", "OBC", "EWS"],
     "gender": "Any",
     "family_income_limit": 450000,
-    "benefits": "₹5,400–₹7,800 per month",
+    "benefits": ["₹5,400–₹7,800 per month"],
     "open_date": "2025-06-25",
     "close_date": "2025-10-31",
     "status": "Closed"
@@ -92,7 +92,7 @@
     "category": ["OBC", "EBC", "DNT"],
     "gender": "Any",
     "family_income_limit": 250000,
-    "benefits": "Full tuition + living expenses",
+    "benefits": ["Full tuition + living expenses"],
     "open_date": "2025-10-01",
     "close_date": "2025-12-31",
     "status": "Closed"
@@ -106,7 +106,7 @@
     "category": ["General", "SC", "ST", "OBC", "EWS"],
     "gender": "Any",
     "family_income_limit": 1500000,
-    "benefits": "Up to ₹2,00,000 for course duration",
+    "benefits": ["Up to ₹2,00,000 for course duration"],
     "open_date": "2025-10-01",
     "close_date": "2025-12-15",
     "status": "Closed"
@@ -120,7 +120,7 @@
     "category": ["General", "SC", "ST", "OBC", "EWS"],
     "gender": "Any",
     "family_income_limit": 250000,
-    "benefits": "₹30,000–₹75,000 per year",
+    "benefits": ["₹30,000–₹75,000 per year"],
     "open_date": "2026-01-01",
     "close_date": "2026-03-31",
     "status": "Open"
@@ -134,7 +134,7 @@
     "category": ["SC", "ST", "OBC", "EWS"],
     "gender": "Any",
     "family_income_limit": 200000,
-    "benefits": "₹48,000 per year",
+    "benefits": ["₹48,000 per year"],
     "open_date": "2026-01-10",
     "close_date": "2026-04-15",
     "status": "Open"
@@ -149,7 +149,7 @@
     "category": ["General", "SC", "ST", "OBC", "EWS"],
     "gender": "Any",
     "family_income_limit": 600000,
-    "benefits": "₹13,400 per month + mentorship",
+    "benefits": ["₹13,400 per month + mentorship"],
     "open_date": "2025-06-01",
     "close_date": "2025-08-31",
     "status": "Closed"
@@ -163,7 +163,7 @@
     "category": ["General", "SC", "ST", "OBC", "EWS"],
     "gender": "Any",
     "family_income_limit": 400000,
-    "benefits": "₹50,000 per year",
+    "benefits": ["₹50,000 per year"],
     "open_date": "2025-07-15",
     "close_date": "2025-09-30",
     "status": "Closed"
@@ -177,7 +177,7 @@
     "category": ["General", "SC", "ST", "OBC", "EWS"],
     "gender": "Any",
     "family_income_limit": 500000,
-    "benefits": "₹30,000–₹75,000 per year",
+    "benefits": ["₹30,000–₹75,000 per year"],
     "open_date": "2026-01-01",
     "close_date": "2026-04-30",
     "status": "Open"
@@ -191,7 +191,7 @@
     "category": ["General", "SC", "ST", "OBC", "EWS"],
     "gender": "Any",
     "family_income_limit": 500000,
-    "benefits": "₹50,000 per year",
+    "benefits": ["₹50,000 per year"],
     "open_date": "2026-01-10",
     "close_date": "2026-03-31",
     "status": "Open"
@@ -205,7 +205,7 @@
     "category": ["General"],
     "gender": "Any",
     "family_income_limit": null,
-    "benefits": "USD 1,000 (one-time)",
+    "benefits": ["USD 1,000 (one-time)"],
     "open_date": "2026-05-01",
     "close_date": "2026-06-30",
     "status": "Upcoming"
@@ -219,12 +219,11 @@
     "category": ["General"],
     "gender": "Female",
     "family_income_limit": null,
-    "benefits": "₹1,00,000 + mentorship",
+    "benefits": ["₹1,00,000 + mentorship"],
     "open_date": "2026-04-15",
     "close_date": "2026-06-15",
     "status": "Upcoming"
-  }
-  {
+  },{
     "id": 17,
     "name": "L’Oréal India For Young Women in Science Scholarship",
     "provider_type": "Private",
@@ -233,8 +232,8 @@
     "education_level": ["UG"],
     "category": ["General"],
     "gender": "Female",
-    "income_limit": 600000,
-    "benefits": "₹2,50,000 (one-time / renewable)",
+    "family_income_limit": 600000,
+    "benefits": ["₹2,50,000 (one-time / renewable)"],
     "status": "Upcoming",
     "apply_platform": "L’Oréal India Website"
   },
@@ -516,7 +515,7 @@
     "category": ["General"],
     "gender": "Any",
     "family_income_limit": null,
-    "benefits": "₹30,000 per year for girls, ₹25,000 per year for boys",
+    "benefits": ["₹30,000 per year for girls, ₹25,000 per year for boys"],
     "open_date": "2025-07-01",
     "close_date": "2025-10-31",
     "status": "Closed"
@@ -530,7 +529,7 @@
     "category": ["ST"],
     "gender": "Any",
     "family_income_limit": 600000,
-    "benefits": "Tuition fee reimbursement + stipend",
+    "benefits": ["Tuition fee reimbursement + stipend"],
     "open_date": "2026-01-01",
     "close_date": "2026-03-31",
     "status": "Open"
@@ -544,7 +543,7 @@
     "category": ["General", "SC", "ST", "OBC", "EWS"],
     "gender": "Female",
     "family_income_limit": 600000,
-    "benefits": "Up to ₹1,50,000 per year",
+    "benefits": ["Up to ₹1,50,000 per year"],
     "open_date": "2026-02-01",
     "close_date": "2026-04-30",
     "status": "Upcoming"
@@ -558,7 +557,7 @@
     "category": ["General", "SC", "ST", "OBC", "EWS"],
     "gender": "Any",
     "family_income_limit": 400000,
-    "benefits": "₹50,000 to ₹1,00,000 per year",
+    "benefits": ["₹50,000 to ₹1,00,000 per year"],
     "open_date": "2026-01-15",
     "close_date": "2026-03-15",
     "status": "Open"
@@ -572,7 +571,7 @@
     "category": ["Minority"],
     "gender": "Any",
     "family_income_limit": 250000,
-    "benefits": "Course fee reimbursement + maintenance allowance",
+    "benefits": ["Course fee reimbursement + maintenance allowance"],
     "open_date": "2026-07-01",
     "close_date": "2026-10-31",
     "status": "Upcoming"
@@ -586,7 +585,7 @@
     "category": ["General", "SC", "ST", "OBC", "EWS"],
     "gender": "Female",
     "family_income_limit": 800000,
-    "benefits": "₹500 per month",
+    "benefits": ["₹500 per month"],
     "open_date": "2026-09-01",
     "close_date": "2026-10-31",
     "status": "Upcoming"
@@ -600,7 +599,7 @@
     "category": ["General", "SC", "ST", "OBC", "EWS"],
     "gender": "Any",
     "family_income_limit": 300000,
-    "benefits": "₹6,000–₹12,000 per year",
+    "benefits": ["₹6,000–₹12,000 per year"],
     "open_date": "2026-01-01",
     "close_date": "2026-03-31",
     "status": "Open"
@@ -614,7 +613,7 @@
     "category": ["General", "SC", "ST", "OBC", "EWS"],
     "gender": "Any",
     "family_income_limit": 600000,
-    "benefits": "₹6,000–₹30,000 per year",
+    "benefits": ["₹6,000–₹30,000 per year"],
     "open_date": "2026-02-01",
     "close_date": "2026-04-30",
     "status": "Open"
@@ -628,7 +627,7 @@
     "category": ["General", "SC", "ST", "OBC", "EWS"],
     "gender": "Any",
     "family_income_limit": 500000,
-    "benefits": "₹10,000–₹25,000 per year",
+    "benefits": ["₹10,000–₹25,000 per year"],
     "open_date": "2026-05-01",
     "close_date": "2026-06-30",
     "status": "Upcoming"
