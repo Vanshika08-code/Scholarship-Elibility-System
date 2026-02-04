@@ -1,16 +1,511 @@
 [
   {
     "id": 1,
-    "name": "Post Matric Scholarship",
+    "name": "Central Sector Scheme of Scholarship (CSSS / PM-USP)",
     "provider_type": "Government",
-    "provider_name": "Ministry of Social Justice",
-    "description": "Financial assistance for SC and ST students pursuing higher education.",
+    "provider_name": "Ministry of Education, Government of India",
     "education_level": ["UG", "PG"],
-    "category": ["SC", "ST"],
+    "category": ["General", "SC", "ST", "OBC", "EWS"],
     "gender": "Any",
-    "income_limit": 250000,
-    "benefits": "Up to ₹48,000 per year",
+    "family_income_limit": 450000,
+    "benefits": "₹10,000–₹20,000 per year",
+    "open_date": "2025-08-01",
+    "close_date": "2025-12-15",
+    "status": "Closed"
+  },
+  {
+    "id": 2,
+    "name": "Post-Matric Scholarship for Students with Disabilities",
+    "provider_type": "Government",
+    "provider_name": "Department for Empowerment of Persons with Disabilities",
+    "education_level": ["UG", "PG", "Diploma"],
+    "category": ["Persons with Disabilities"],
+    "gender": "Any",
+    "family_income_limit": 250000,
+    "benefits": "Fee reimbursement + maintenance allowance",
     "open_date": "2026-07-01",
-    "close_date": "2026-09-30"
+    "close_date": "2026-10-31",
+    "status": "Upcoming"
+  },
+  {
+    "id": 3,
+    "name": "AICTE Pragati Scholarship for Girl Students",
+    "provider_type": "Government",
+    "provider_name": "AICTE",
+    "education_level": ["UG", "Diploma"],
+    "category": ["General", "SC", "ST", "OBC", "EWS"],
+    "gender": "Female",
+    "family_income_limit": 800000,
+    "benefits": "₹50,000 per year",
+    "open_date": "2026-01-15",
+    "close_date": "2026-03-31",
+    "status": "Open"
+  },
+  {
+    "id": 4,
+    "name": "Post-Matric Scholarship for SC/ST/OBC Students",
+    "provider_type": "Government",
+    "provider_name": "Ministry of Social Justice & Empowerment / State Governments",
+    "education_level": ["UG", "PG", "Professional"],
+    "category": ["SC", "ST", "OBC"],
+    "gender": "Any",
+    "family_income_limit": 250000,
+    "benefits": "Fee reimbursement + maintenance allowance",
+    "open_date": "2026-01-01",
+    "close_date": "2026-04-30",
+    "status": "Open"
+  },
+  {
+    "id": 5,
+    "name": "EWS Post-Matric Scholarship",
+    "provider_type": "Government",
+    "provider_name": "Central / State Governments",
+    "education_level": ["UG", "PG"],
+    "category": ["EWS"],
+    "gender": "Any",
+    "family_income_limit": 800000,
+    "benefits": "Fee reimbursement + maintenance allowance",
+    "open_date": "2026-07-15",
+    "close_date": "2026-10-15",
+    "status": "Upcoming"
+  },
+  {
+    "id": 6,
+    "name": "Ishan Uday Special Scholarship Scheme (NER)",
+    "provider_type": "Government",
+    "provider_name": "UGC",
+    "education_level": ["UG"],
+    "category": ["General", "SC", "ST", "OBC", "EWS"],
+    "gender": "Any",
+    "family_income_limit": 450000,
+    "benefits": "₹5,400–₹7,800 per month",
+    "open_date": "2025-06-25",
+    "close_date": "2025-10-31",
+    "status": "Closed"
+  },
+  {
+    "id": 7,
+    "name": "PM-YASASVI Top Class Education Scholarship",
+    "provider_type": "Government",
+    "provider_name": "Ministry of Social Justice & Empowerment",
+    "education_level": ["UG", "PG", "Professional"],
+    "category": ["OBC", "EBC", "DNT"],
+    "gender": "Any",
+    "family_income_limit": 250000,
+    "benefits": "Full tuition + living expenses",
+    "open_date": "2025-10-01",
+    "close_date": "2025-12-31",
+    "status": "Closed"
+  },
+  {
+    "id": 8,
+    "name": "Reliance Foundation Undergraduate Scholarship",
+    "provider_type": "Private",
+    "provider_name": "Reliance Foundation",
+    "education_level": ["UG"],
+    "category": ["General", "SC", "ST", "OBC", "EWS"],
+    "gender": "Any",
+    "family_income_limit": 1500000,
+    "benefits": "Up to ₹2,00,000 for course duration",
+    "open_date": "2025-10-01",
+    "close_date": "2025-12-15",
+    "status": "Closed"
+  },
+  {
+    "id": 9,
+    "name": "HDFC Bank Parivartan ECSS Scholarship",
+    "provider_type": "Private",
+    "provider_name": "HDFC Bank",
+    "education_level": ["UG", "PG"],
+    "category": ["General", "SC", "ST", "OBC", "EWS"],
+    "gender": "Any",
+    "family_income_limit": 250000,
+    "benefits": "₹30,000–₹75,000 per year",
+    "open_date": "2026-01-01",
+    "close_date": "2026-03-31",
+    "status": "Open"
+  },
+  {
+    "id": 10,
+    "name": "ONGC Scholarship for Meritorious Students",
+    "provider_type": "Government PSU",
+    "provider_name": "ONGC",
+    "education_level": ["UG", "PG"],
+    "category": ["SC", "ST", "OBC", "EWS"],
+    "gender": "Any",
+    "family_income_limit": 200000,
+    "benefits": "₹48,000 per year",
+    "open_date": "2026-01-10",
+    "close_date": "2026-04-15",
+    "status": "Open"
+  },
+
+  {
+    "id": 11,
+    "name": "L&T Build India Scholarship",
+    "provider_type": "Private",
+    "provider_name": "Larsen & Toubro",
+    "education_level": ["UG"],
+    "category": ["General", "SC", "ST", "OBC", "EWS"],
+    "gender": "Any",
+    "family_income_limit": 600000,
+    "benefits": "₹13,400 per month + mentorship",
+    "open_date": "2025-06-01",
+    "close_date": "2025-08-31",
+    "status": "Closed"
+  },
+  {
+    "id": 12,
+    "name": "DXC Progressing Minds Scholarship",
+    "provider_type": "Private",
+    "provider_name": "DXC Technology",
+    "education_level": ["UG", "PG"],
+    "category": ["General", "SC", "ST", "OBC", "EWS"],
+    "gender": "Any",
+    "family_income_limit": 400000,
+    "benefits": "₹50,000 per year",
+    "open_date": "2025-07-15",
+    "close_date": "2025-09-30",
+    "status": "Closed"
+  },
+  {
+    "id": 13,
+    "name": "Vidyasaarathi Corporate Scholarship",
+    "provider_type": "Private",
+    "provider_name": "NSDL e-Governance",
+    "education_level": ["UG", "PG"],
+    "category": ["General", "SC", "ST", "OBC", "EWS"],
+    "gender": "Any",
+    "family_income_limit": 500000,
+    "benefits": "₹30,000–₹75,000 per year",
+    "open_date": "2026-01-01",
+    "close_date": "2026-04-30",
+    "status": "Open"
+  },
+  {
+    "id": 14,
+    "name": "Flipkart Foundation Scholarship",
+    "provider_type": "Private",
+    "provider_name": "Flipkart Foundation",
+    "education_level": ["UG"],
+    "category": ["General", "SC", "ST", "OBC", "EWS"],
+    "gender": "Any",
+    "family_income_limit": 500000,
+    "benefits": "₹50,000 per year",
+    "open_date": "2026-01-10",
+    "close_date": "2026-03-31",
+    "status": "Open"
+  },
+  {
+    "id": 15,
+    "name": "Google Generation Scholarship (APAC)",
+    "provider_type": "Private",
+    "provider_name": "Google",
+    "education_level": ["UG", "PG"],
+    "category": ["General"],
+    "gender": "Any",
+    "family_income_limit": null,
+    "benefits": "USD 1,000 (one-time)",
+    "open_date": "2026-05-01",
+    "close_date": "2026-06-30",
+    "status": "Upcoming"
+  },
+  {
+    "id": 16,
+    "name": "Adobe India Women-in-Tech Scholarship",
+    "provider_type": "Private",
+    "provider_name": "Adobe India",
+    "education_level": ["UG", "PG"],
+    "category": ["General"],
+    "gender": "Female",
+    "family_income_limit": null,
+    "benefits": "₹1,00,000 + mentorship",
+    "open_date": "2026-04-15",
+    "close_date": "2026-06-15",
+    "status": "Upcoming"
+  }
+  {
+    "id": 17,
+    "name": "L’Oréal India For Young Women in Science Scholarship",
+    "provider_type": "Private",
+    "provider_name": "L’Oréal India",
+    "description": "Supports young women pursuing undergraduate studies in science disciplines.",
+    "education_level": ["UG"],
+    "category": ["General"],
+    "gender": "Female",
+    "income_limit": 600000,
+    "benefits": "₹2,50,000 (one-time / renewable)",
+    "status": "Upcoming",
+    "apply_platform": "L’Oréal India Website"
+  },
+  {
+    "id": 18,
+    "name": "Pre-Matric Scholarship for SC Students",
+    "provider_type": "Government",
+    "provider_name": "Ministry of Social Justice & Empowerment, Govt. of India",
+    "description": "Financial support to SC students studying in Classes 9 and 10 to reduce dropout rates.",
+    "education_level": ["Class 9", "Class 10"],
+    "category": ["SC"],
+    "gender": "Any",
+    "family_income_limit": 250000,
+    "income_criteria": "Annual family income should not exceed ₹2.5 lakh.",
+    "eligibility": [
+      "Student must belong to SC category",
+      "Studying in Class 9 or 10 in a recognized school",
+      "Must not be receiving another central scholarship"
+    ],
+    "benefits": [
+      "Maintenance allowance",
+      "Reimbursement of compulsory school fees"
+    ],
+    "application_mode": "Online",
+    "apply_on": "National Scholarship Portal"
+  },
+  {
+    "id": 19,
+    "name": "Pre-Matric Scholarship for ST Students",
+    "provider_type": "Government",
+    "provider_name": "Ministry of Tribal Affairs, Govt. of India",
+    "description": "Scholarship for Scheduled Tribe students studying at pre-matric level.",
+    "education_level": ["Class 9", "Class 10"],
+    "category": ["ST"],
+    "gender": "Any",
+    "family_income_limit": 250000,
+    "income_criteria": "Family income must not exceed ₹2.5 lakh per annum.",
+    "eligibility": [
+      "Must belong to ST category",
+      "Studying in Class 9 or 10",
+      "Regular school student"
+    ],
+    "benefits": [
+      "Maintenance allowance",
+      "Book and stationery support"
+    ],
+    "application_mode": "Online",
+    "apply_on": "National Scholarship Portal"
+  },
+  {
+    "id": 20,
+    "name": "Pre-Matric Scholarship for OBC Students",
+    "provider_type": "Government",
+    "provider_name": "Ministry of Social Justice & Empowerment, Govt. of India",
+    "description": "Financial aid for OBC students studying in school to support continued education.",
+    "education_level": ["Class 1 to Class 10"],
+    "category": ["OBC"],
+    "gender": "Any",
+    "family_income_limit": 250000,
+    "income_criteria": "Annual family income should be less than ₹2.5 lakh.",
+    "eligibility": [
+      "Student must belong to OBC category",
+      "Studying in Class 1 to 10",
+      "School must be recognized"
+    ],
+    "benefits": [
+      "Maintenance allowance",
+      "Reimbursement of school fees (Class 9–10)"
+    ],
+    "application_mode": "Online",
+    "apply_on": "National Scholarship Portal"
+  },
+  {
+    "id": 21,
+    "name": "National Means-cum-Merit Scholarship (NMMS)",
+    "provider_type": "Government",
+    "provider_name": "Department of School Education & Literacy, Govt. of India",
+    "description": "Merit-based scholarship to prevent dropouts after Class 8.",
+    "education_level": ["Class 9", "Class 10", "Class 11", "Class 12"],
+    "category": ["General", "SC", "ST", "OBC", "EWS"],
+    "gender": "Any",
+    "family_income_limit": 350000,
+    "income_criteria": "Parental income must not exceed ₹3.5 lakh per annum.",
+    "eligibility": [
+      "Must clear NMMS examination in Class 8",
+      "Minimum 55% marks (50% for reserved categories)",
+      "Continuing education in government/approved schools"
+    ],
+    "benefits": [
+      "₹12,000 per year (₹1,000 per month)"
+    ],
+    "application_mode": "Offline/Online (State-wise)",
+    "apply_on": "State Education Department Portals"
+  },
+  {
+    "id": 22,
+    "name": "INSPIRE Scholarship (MANAK Awards – School Level)",
+    "provider_type": "Government",
+    "provider_name": "Department of Science & Technology, Govt. of India",
+    "description": "Encourages innovation and scientific thinking among school students.",
+    "education_level": ["Class 6 to Class 10"],
+    "category": ["General", "SC", "ST", "OBC", "EWS"],
+    "gender": "Any",
+    "family_income_limit": null,
+    "income_criteria": "No income limit.",
+    "eligibility": [
+      "Student studying in Class 6–10",
+      "Idea/project selected at school/district level"
+    ],
+    "benefits": [
+      "₹10,000 for selected innovative projects"
+    ],
+    "application_mode": "Online",
+    "apply_on": "INSPIRE MANAK Portal"
+  },
+  {
+    "id": 23,
+    "name": "Tata Trusts Merit Scholarship for School Students",
+    "provider_type": "Private",
+    "provider_name": "Tata Trusts",
+    "description": "Merit-based scholarship for economically weaker school students.",
+    "education_level": ["Class 8 to Class 12"],
+    "category": ["General", "SC", "ST", "OBC", "EWS"],
+    "gender": "Any",
+    "family_income_limit": 300000,
+    "income_criteria": "Annual family income should not exceed ₹3 lakh.",
+    "eligibility": [
+      "Good academic performance",
+      "Studying in recognized school",
+      "Belonging to economically weaker background"
+    ],
+    "benefits": [
+      "Tuition fee support",
+      "Books and stationery allowance"
+    ],
+    "application_mode": "Online/Offline",
+    "apply_on": "Tata Trusts Official Website"
+  },
+  {
+    "id": 24,
+    "name": "Begum Hazrat Mahal National Scholarship",
+    "provider_type": "Government",
+    "provider_name": "Ministry of Minority Affairs, Government of India",
+    "description": "Scholarship for meritorious girl students belonging to minority communities studying in school.",
+    "education_level": ["Class 9", "Class 10", "Class 11", "Class 12"],
+    "category": ["Minority"],
+    "gender": "Female",
+    "family_income_limit": 200000,
+    "income_criteria": "Annual family income must not exceed ₹2 lakh.",
+    "eligibility": [
+      "Girl student from minority community (Muslim, Christian, Sikh, Buddhist, Jain, Parsi)",
+      "Minimum 50% marks in previous examination",
+      "Studying in Class 9–12 in a recognized institution"
+    ],
+    "benefits": [
+      "₹5,000 per year for Class 9–10",
+      "₹6,000 per year for Class 11–12"
+    ],
+    "application_mode": "Online",
+    "apply_on": "National Scholarship Portal"
+  },
+  {
+    "id": 25,
+    "name": "National Talent Search Examination (NTSE) Scholarship",
+    "provider_type": "Government",
+    "provider_name": "NCERT, Government of India",
+    "description": "Prestigious merit-based scholarship to identify and nurture talented students at school level.",
+    "education_level": ["Class 10", "Class 11", "Class 12"],
+    "category": ["General", "SC", "ST", "OBC", "EWS"],
+    "gender": "Any",
+    "family_income_limit": null,
+    "income_criteria": "No income limit.",
+    "eligibility": [
+      "Must qualify NTSE Stage I and Stage II examinations",
+      "Studying as a regular school student"
+    ],
+    "benefits": [
+      "₹1,250 per month for Class 11–12"
+    ],
+    "application_mode": "Offline/Online (State-wise)",
+    "apply_on": "State Education Boards / NCERT"
+  },
+  {
+    "id": 26,
+    "name": "Vidyadhan Scholarship (Sarojini Damodaran Foundation)",
+    "provider_type": "Private",
+    "provider_name": "Sarojini Damodaran Foundation",
+    "description": "Supports meritorious students from economically weaker families to continue school and higher studies.",
+    "education_level": ["Class 8", "Class 9", "Class 10", "Class 11", "Class 12"],
+    "category": ["General", "SC", "ST", "OBC", "EWS"],
+    "gender": "Any",
+    "family_income_limit": 200000,
+    "income_criteria": "Annual family income should be less than ₹2 lakh.",
+    "eligibility": [
+      "Minimum 75% marks in previous class (70% for SC/ST)",
+      "Economically weaker background",
+      "Indian citizen"
+    ],
+    "benefits": [
+      "₹6,000 to ₹10,000 per year",
+      "Mentoring and career guidance"
+    ],
+    "application_mode": "Online",
+    "apply_on": "Vidyadhan Official Portal"
+  },
+  {
+    "id": 27,
+    "name": "Sitaram Jindal Foundation Scholarship (School Level)",
+    "provider_type": "Private",
+    "provider_name": "Sitaram Jindal Foundation",
+    "description": "Financial assistance to school students from low-income families across India.",
+    "education_level": ["Class 1 to Class 12"],
+    "category": ["General", "SC", "ST", "OBC", "EWS"],
+    "gender": "Any",
+    "family_income_limit": 400000,
+    "income_criteria": "Annual family income should not exceed ₹4 lakh.",
+    "eligibility": [
+      "Indian student studying in Class 1–12",
+      "Good academic record",
+      "Family income within limit"
+    ],
+    "benefits": [
+      "Monthly scholarship ranging from ₹300 to ₹1,000"
+    ],
+    "application_mode": "Offline",
+    "apply_on": "Sitaram Jindal Foundation Office / Website"
+  },
+  {
+    "id": 28,
+    "name": "Pre-Matric Minority Scholarship",
+    "provider_type": "Government",
+    "provider_name": "Ministry of Minority Affairs, Government of India",
+    "description": "Scholarship for minority community students studying at pre-matric level to encourage school education.",
+    "education_level": ["Class 1 to Class 10"],
+    "category": ["Minority"],
+    "gender": "Any",
+    "family_income_limit": 100000,
+    "income_criteria": "Annual family income must not exceed ₹1 lakh.",
+    "eligibility": [
+      "Belonging to minority community",
+      "Minimum 50% marks in previous exam",
+      "Studying in a recognized school"
+    ],
+    "benefits": [
+      "Admission fee",
+      "Tuition fee",
+      "Maintenance allowance"
+    ],
+    "application_mode": "Online",
+    "apply_on": "National Scholarship Portal"
+  },
+  {
+    "id": 29,
+    "name": "LIC Golden Jubilee Scholarship (School Continuation)",
+    "provider_type": "Private",
+    "provider_name": "Life Insurance Corporation of India (LIC)",
+    "description": "Scholarship for economically weaker students continuing education after Class 10.",
+    "education_level": ["Class 11", "Class 12"],
+    "category": ["General", "SC", "ST", "OBC", "EWS"],
+    "gender": "Any",
+    "family_income_limit": 200000,
+    "income_criteria": "Annual family income should not exceed ₹2 lakh.",
+    "eligibility": [
+      "Passed Class 10 with at least 60% marks",
+      "Studying in Class 11 or 12",
+      "Economically weaker background"
+    ],
+    "benefits": [
+      "₹10,000 per year"
+    ],
+    "application_mode": "Online",
+    "apply_on": "LIC Official Website"
   }
 ]
