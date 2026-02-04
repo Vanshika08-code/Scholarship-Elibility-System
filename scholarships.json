@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Post Matric Scholarship",
+    "provider_type": "Government",
+    "provider_name": "Ministry of Social Justice",
+    "description": "Financial assistance for SC and ST students pursuing higher education.",
+    "education_level": ["UG", "PG"],
+    "category": ["SC", "ST"],
+    "gender": "Any",
+    "income_limit": 250000,
+    "benefits": "Up to ₹48,000 per year",
+    "open_date": "2026-07-01",
+    "close_date": "2026-09-30"
+  }
+]
