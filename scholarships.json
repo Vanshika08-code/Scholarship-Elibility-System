@@ -234,6 +234,8 @@
     "gender": "Female",
     "family_income_limit": 600000,
     "benefits": ["₹2,50,000 (one-time / renewable)"],
+    "open_date": "2026-03-01",
+    "close_date": "2026-05-31"
     "status": "Upcoming",
     "apply_platform": "L’Oréal India Website"
   },
@@ -257,6 +259,8 @@
       "Maintenance allowance",
       "Reimbursement of compulsory school fees"
     ],
+    "open_date": "2026-07-01",
+    "close_date": "2026-10-31"
     "application_mode": "Online",
     "apply_on": "National Scholarship Portal"
   },
@@ -280,6 +284,8 @@
       "Maintenance allowance",
       "Book and stationery support"
     ],
+    "open_date": "2026-07-01",
+    "close_date": "2026-10-31"
     "application_mode": "Online",
     "apply_on": "National Scholarship Portal"
   },
@@ -303,6 +309,8 @@
       "Maintenance allowance",
       "Reimbursement of school fees (Class 9–10)"
     ],
+    "open_date": "2026-07-01",
+    "close_date": "2026-10-31"
     "application_mode": "Online",
     "apply_on": "National Scholarship Portal"
   },
@@ -325,6 +333,8 @@
     "benefits": [
       "₹12,000 per year (₹1,000 per month)"
     ],
+    "open_date": "2026-08-01",
+    "close_date": "2026-11-30"
     "application_mode": "Offline/Online (State-wise)",
     "apply_on": "State Education Department Portals"
   },
@@ -346,6 +356,8 @@
     "benefits": [
       "₹10,000 for selected innovative projects"
     ],
+    "open_date": "2026-05-01",
+    "close_date": "2026-09-30"
     "application_mode": "Online",
     "apply_on": "INSPIRE MANAK Portal"
   },
